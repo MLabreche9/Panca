@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="peru food, peruvian restaurants near me, peruvian restauran">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!--build:css css/main.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Luckiest+Guy&display=swap" />
+    <title>Pance Peruvian Cuisine</title>
+</head>
+<body>
+    <!-- Navigation Bar-->
+    <div class="container-fluid">
+       <nav class="navbar navbar-expand-xl navbar-light navbar-static-top">
+            <a class="navbar-brand" href="#"> <img src="img/panca-logo.png" class="img-fluid" height="auto" width="100%"/> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pancaNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="pancaNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="index.html"> Home </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="aboutus.html"> About Us</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="menu.html"> Menu </a></li>
+                    <li class="nav-item active"> <a class="nav-link" href="#"> Contact Us </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+                <h1 class="text-center">Our Address:</h1>
+                <h3 class="text-center text-secondary">1902 S. Coast Highway, Oceanside, CA 92054</h3>
+            </div>
+            <div class="col-sm-6 mt-5">
+                <h1 class="text-center">Our telephone number is:</h1>
+                <h3 class="text-center text-secondary">1-760-722-3396</h3>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h1 class="text-center"> Hours: Tuesday-Sunday, 4pm - 10pm</h1>
+                <h1 class="text-center text-secondary"> Closed Mondays</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="d-flex justify-content-center mt-5">Contact us:</h1>
+            </div>
+        </div>
+        <form class="form-group">
+            <div class="form-row d-flex justify-content-center align-items-center">
+             <!-- <label for="firstName">First Name: </label> -->
+                <div class="col-sm-4 col-form-label">    
+                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First Name">
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-center align-items-center">
+             <!--  <label for="lastName">Last Name: </label> -->
+                <div class="col-sm-4 col-form-label">
+                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-center align-items-center">
+             <!--  <label for="email">Email Address: </label> -->
+                <div class="col-sm-4 col-form-label">
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Email Address">
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-center align-items-center">
+             <!--  <label for="phoneNum">Telephone Number: </label> -->
+                <div class="col-sm-4 col-form-label">
+                    <input type="tel" id="phoneNum" name="phoneNum" class="form-control" placeholder="Telephone Number">  
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-center align-items-center">
+            <!--   <label for="comment">Comments:</label>-->
+                <div class="col-sm-4 col-form-label">
+                    <input type="textarea" id="comment" name="comment" class="form-control" placeholder="How may we help you?">    
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-dark"> Submit </button>
+            </div>
+        </form>
+    </div>
+     <!---Footer-->
+     <footer class="site-footer mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-3 mt-2">
+                    <ul class="d-none d-sm-block">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h3>Follow Us:</h3>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/panca_peruvian_cuisine/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Panca-Peruvian-Rotisserie-175612509203482" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col-sm-3 text-center mt-2">
+                    <a role="button" class="btn btn-link" href="tel:+17607223396">  1-760-722-3396 </a> <br>
+                    <a role="button" class="btn btn-link" href="https://goo.gl/maps/AwcJnyRSsT2yTb4d7" target="_blank"> 1902 S. Coast HWY, Oceanside, CA </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!--build.js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,53 @@
+.navbar {
+    border: solid 20px;
+}
+
+.nav-item {
+    font-family: Luckiest Guy;
+    font-size: 2.2em;
+}
+
+body {
+    margin: 30px;
+}
+
+.carousel {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+h1, h3 {
+    font-family: Luckiest Guy;
+}
+
+@media (max-width: 768px) {  
+    h1 {font-size:1.5rem;} /*1rem = 16px*/
+    h2 {font-size:1rem;}
+    h3 {font-size:1rem;}
+    .nav-item {font-size:1.5rem;}
+  }
+
+.accordion {
+    width: 75%;
+    margin: 50px auto;
+    border: solid 5px;
+  }
+
+.accordion .card-header {
+    border-bottom: solid 2px;
+}
+
+.site-footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 10px;
+    margin: 19px;
+}
+
+.site-footer a {
+    color: white
+}
+
+
